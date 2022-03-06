@@ -3,7 +3,7 @@ import cvlib as cv
 from cvlib.object_detection import draw_bbox
 import cv2
 
-cap = cv2.VideoCapture('challenge.mp4')
+cap = cv2.VideoCapture('video1.mp4')
 
 while(cap.isOpened()):
     ret, frame = cap.read()
